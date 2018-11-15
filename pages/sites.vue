@@ -1,19 +1,71 @@
 <template>
   <section class="container">
-    <div class="links">
-      <a
-        href="https://utakata-umigame.com"
-        target="_blank"
-        class="button--green">Utakata</a>
-      <a
-        href="https://gallery.utakata-umigame.com"
-        target="_blank"
-        class="button--green">Gallery</a>
-      <a
-        href="https://wolf.utakata-umigame.com"
-        target="_blank"
-        class="button--green">Wolf</a>
-    </div>
+    <el-row :gutter="12">
+      <el-col :span="8">
+        <el-card
+          :body-style="{'padding': '0'}"
+          shadow="hover">
+          <img
+            src="https://avatars2.githubusercontent.com/u/43202287?s=200&v=4"
+            class="image"
+            width="100%"
+            alt="aaa">
+          <div style="padding: 10px;">
+            <p>あ</p>
+            <a
+              href="https://utakata-umigame.com"
+              target="_blank"
+              class="button--green">
+              安定版
+            </a>
+            <a
+              href="https://beta/utakata-umigame.com"
+              target="_blank"
+              class="button--green">
+              ベータ版
+            </a>
+          </div>
+        </el-card>
+      </el-col>
+      <el-col :span="8">
+        <el-card
+          :body-style="{'padding': '0'}"
+          shadow="hover">
+          <img
+            src="https://avatars2.githubusercontent.com/u/43202287?s=200&v=4"
+            class="image"
+            width="100%"
+            alt="aaa">
+          <div style="padding: 10px;">
+            <a
+              href="https://gallery.utakata-umigame.com"
+              target="_blank"
+              class="button--green">
+              リンク
+            </a>
+          </div>
+        </el-card>
+      </el-col>
+      <el-col :span="8">
+        <el-card
+          :body-style="{'padding': '0'}"
+          shadow="hover">
+          <img
+            src="https://avatars2.githubusercontent.com/u/43202287?s=200&v=4"
+            class="image"
+            width="100%"
+            alt="aaa">
+          <div style="padding: 10px;">
+            <a
+              href="https://wolf.utakata-umigame.com"
+              target="_blank"
+              class="button--green">
+              リンク
+            </a>
+          </div>
+        </el-card>
+      </el-col>
+    </el-row>
   </section>
 </template>
 <style>
@@ -23,27 +75,5 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
 }
 </style>

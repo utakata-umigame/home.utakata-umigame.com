@@ -1,24 +1,20 @@
 <template>
   <section class="container">
     <div>
-      <p>a</p>
-      <SideBar />
+      <router-link to="/sites">サイト一覧</router-link>
     </div>
   </section>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
-import SideBar from '~/components/SideBar.vue'
 
 export default {
   components: {
-    Logo,
-    SideBar
+    Logo
   }
 }
 </script>
-
 <style>
 .container {
   min-height: 100vh;
