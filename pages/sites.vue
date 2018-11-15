@@ -3,15 +3,13 @@
     <el-row :gutter="12">
       <el-col :span="8">
         <el-card
-          :body-style="{'padding': '0'}"
-          shadow="hover">
+          :body-style="{'padding': '0'}">
           <img
             src="https://avatars2.githubusercontent.com/u/43202287?s=200&v=4"
             class="image"
             width="100%"
             alt="aaa">
           <div style="padding: 10px;">
-            <p>あ</p>
             <a
               href="https://utakata-umigame.com"
               target="_blank"
@@ -29,8 +27,7 @@
       </el-col>
       <el-col :span="8">
         <el-card
-          :body-style="{'padding': '0'}"
-          shadow="hover">
+          :body-style="{'padding': '0'}">
           <img
             src="https://avatars2.githubusercontent.com/u/43202287?s=200&v=4"
             class="image"
@@ -48,8 +45,7 @@
       </el-col>
       <el-col :span="8">
         <el-card
-          :body-style="{'padding': '0'}"
-          shadow="hover">
+          :body-style="{'padding': '0'}">
           <img
             src="https://avatars2.githubusercontent.com/u/43202287?s=200&v=4"
             class="image"

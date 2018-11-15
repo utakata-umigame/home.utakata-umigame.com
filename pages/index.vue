@@ -1,7 +1,18 @@
 <template>
   <section class="container">
     <div>
-      <router-link to="/sites">サイト一覧</router-link>
+      <transition name="el-fade-in">
+        <p
+          v-show="show"
+          class="title">
+          a
+        </p>
+      </transition>
+      <router-link
+        to="/sites"
+        class="button--green">
+        サイト一覧
+      </router-link>
     </div>
   </section>
 </template>
@@ -12,6 +23,14 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo
+  },
+  data() {
+    return {
+      show: false
+    }
+  },
+  mounted() {
+    this.show = true
   }
 }
 </script>
