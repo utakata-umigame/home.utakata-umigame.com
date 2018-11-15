@@ -19,7 +19,7 @@
               安定版
             </a>
             <a
-              href="https://beta/utakata-umigame.com"
+              href="https://beta.utakata-umigame.com"
               target="_blank"
               class="button--green">
               ベータ版
