@@ -5,7 +5,7 @@
         <p
           v-show="show"
           class="title">
-          a
+          Utakata Umigame
         </p>
       </transition>
       <router-link
